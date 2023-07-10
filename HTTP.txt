@@ -1,0 +1,74 @@
+
+                                       Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+
+
+1) HTTP/2 is different from http/1 in several ways,including support server push,multiplexing of requests and header compression.
+   HTTP/2 also uses binary encoding rather than encoding making it more efficient
+
+2) HTTP/1.1 pipeline still requires the request to be returned in full, in the order requested .HTTP/2 allows the request responses
+   to be spilt into chunks and be returned in an intermingled fashion so avoiding head of line blocking
+ 
+                                                 HTTP/1.1
+                             1) it works on the textual format
+                             2) there is head of line blocking that blocks all the requests bihind
+                                 it until it doesn't get its all reasource
+                             3) it uses requests resource inlineing for use getting multiple pages
+                             4) it compresses data by itself
+
+                                                 HTTP/2
+                              1) its works on the binary protocol
+
+                              2) it allows multiplexing so one TCP connection is required for multiple requests.
+                              3) its uses push frame by server that collection all multiple pages
+                              4) it uses HPACK for data compression.
+
+
+
+
+
+                                         Write a blog about objects and its internal representation in Javascript
+
+1) in javascript, objects have an internal property known as prototype. you can also see that there is a scopes inside of these brakets as well 
+    once clicking inside an objects. whenever there are [[]] that appear,it's an internal property that can't be accessed by our code
+
+2) in javascript, an object is a standalone entity, with properties and type. compare it with a cup, for example.A cup is an objects, with properties A
+    cup has a colour, a disign, wight, etc
+
+3) functions can be defined inside objects, just like any other PROPERTY. these functions are called "methods" and can be invoked by sing the objects name .follwed
+    by the method name and parentheses
+     FOR example : const objects=(method:functions (){console.
+4) property values can be values of any type, including other objects, which enables building complex data structure. there are two types of objects
+   properties: the data property and the accessor property. each property has corresponding attributes 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  
