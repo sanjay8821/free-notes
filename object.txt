@@ -1,0 +1,94 @@
+                                                  write a blog on difference between document and window objects
+  
+                   A document is an object inside the window object and we use a document object for manipulation inside the document. The first thing that gets loaded into
+                       the browser is the window and the properties related to that window are stored in the window object
+
+
+
+                                                                          document object
+           
+                         The document object represent  a web page that is loaded in the browser by accessing the document, we can access the element in the html
+                          page, with the help of document object we can add dynamic content to our web page the document object can be accessed with a window.document 
+
+                                                                             syntex
+ 
+                                                                    document.property_name;
+
+                                                                  
+                                                                    properties of document
+
+                                             1) activeelement: it return the currently active elements in the document 
+                                             2) baseURI: it return a tring value that represnts the basis URI of the document 
+                                             3) defaultview: it returns the current window object
+
+
+
+                                                                     methods of document
+
+                                                             syntax: document.method_name; 
+                                              1) adopnode(): it is used to adopt a node from another document and its return a node object 
+                                                              representing the adopted node 
+                                              2) close(): iit is used to close the output stream
+                                               3) createelement(): it is used to creat HTML element            
+ 
+                          
+                                      
+                                                                  window object
+ 
+                                1) the window object is the topmost object of the dom hierachy.it represents a browser window or frames that
+                                   display contents of the web page, wen ever a window appears on the screen to display the contents of the 
+                                   document, the window object is created
+  
+ 
+                                                syntax : window.property_name;
+                                     
+                                                                 properties of the window
+                                
+                                           1) closed: it holds a boolean value that represents whether is closed or not 
+                                           2) crypto: it returns the browser crypto object
+                                           3)frames[] : it represents an array that contains all the frames of a given window
+
+
+
+                                                                   methods of window
+ 
+                                                             syntax: window.method_name;
+                                        
+                                           
+                                                     1) blur(): it is used to remove focus from the cuurrent window
+                                                     2) btoa(): it is used for encodeing a string  in base-64 format
+                                                     3) focus(): it is used to give focus to an element inthe current window 
+                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
